@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body, html{
+    height: 100%;
+}
+
+
+body {
+   background-image: url(/images/maxresdefault.jpg);   
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+   
+}
+
+   
+
+
+.box-main{
+    width: 35%;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    opacity: 80%;
+    
+      
+}
+
+.border-box{
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
