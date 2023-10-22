@@ -2,9 +2,9 @@
 
 function Next() {
     let nextbox = document.getElementById('nextbox'); 
-    let borderbox = document.getElementById('borderbox');
+    let boxmain = document.getElementById('boxmain'); 
     nextbox.style.opacity = (nextbox.style.opacity === '0') ? '1' : '0';
-    borderbox.style.opacity = (borderbox.style.opacity === '1') ? '0' : '1';
+    boxmain.style.opacity = (nextbox.style.opacity === '1') ? '0' : '1';
 
    
 }
